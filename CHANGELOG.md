@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.24.1]
 
+### Added
+
+- `EncodeGaugeValue` is implemented for `usize` and `isize`, and
+  `EncodeCounterValue` is implemented for `usize`. See [PR 282].
+
 ### Fixed
 
 - `EncodeGaugeValue`, `EncodeCounterValue` and `EncodeExemplarValue` now use
@@ -25,6 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [PR 242]: https://github.com/prometheus/client_rust/pull/242
 [PR 245]: https://github.com/prometheus/client_rust/pull/245
 [PR 246]: https://github.com/prometheus/client_rust/pull/246
+[PR 281]: https://github.com/prometheus/client_rust/pull/281
+[PR 282]: https://github.com/prometheus/client_rust/pull/282
 
 ## [0.24.0]
 
